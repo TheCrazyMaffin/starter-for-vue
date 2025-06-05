@@ -1,7 +1,7 @@
 import { Client, Account, Databases } from 'appwrite'
 
 const getEndpoint = () => {
-  return import.meta.env.VITE_APPWRITE_ENDPOINT
+  return import.meta.env.VITE_APPWRITE_PUBLIC_ENDPOINT
 }
 
 const getProjectId = () => {
